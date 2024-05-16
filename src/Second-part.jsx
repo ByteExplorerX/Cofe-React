@@ -232,7 +232,7 @@ function SecondPart() {
             </div>
 
             <div className="d-flex flex-column flex-sm-row justify-content-between pt-4 my-4 border-top">
-              <p>© 2024 Company, Inc. All rights reserved.</p>
+              <p>© 2024 Created by <a href="https://www.linkedin.com/in/juri-dedej/">Juri Dedej</a>. All rights reserved.</p>
               <ul className="list-unstyled d-flex">
                 <li className="ms-3">
                   <a className="link-dark" href="#">

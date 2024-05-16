@@ -1,0 +1,709 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+}
+
+#navbarsExample11 > div > button {
+  color: white;
+  background-color: #803d3b;
+}
+
+#navbarsExample11 > div > button:hover {
+  color: white;
+  background-color: #af8260;
+  transition: all 0.5s ease-in-out;
+}
+
+#navbarsExample11 > a > img {
+  height: 35px;
+  width: auto;
+  margin-left: 5px;
+  margin-top: -7px;
+}
+
+main {
+  background-color: #803d3b;
+  height: 110vh;
+}
+
+#root > div > main > img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40vh;
+  width: 120vh;
+}
+
+.mobile-text {
+  display: none;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+#root > div > main > img:hover {
+  cursor: pointer;
+  transition: transform 0.5s;
+  animation: shake 2s; /* Apply the shake animation on hover */
+  animation-timing-function: ease-in-out; /* Smooth movement */
+}
+
+#root > div > main > div > div.middle-left {
+  color: white;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  position: absolute;
+  top: 50%; /* Middle of the page vertically */
+  left: 8%; /* At the left edge of the page */
+  transform: translateY(
+    -50%
+  ); /* Offset the div by half its height to truly center it vertically */
+  width: 50vh;
+}
+
+#root > div > main > div > div.middle-left > h1:nth-child(1) {
+  font-size: 13vh;
+}
+
+#root > div > main > div > div.middle-left > h1:nth-child(2) {
+  font-size: 6vh;
+  margin-top: -4vh;
+}
+
+#root > div > main > div > div.middle-right {
+  color: white;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  position: absolute;
+  top: 45%; /* Middle of the page vertically */
+  right: 18%; /* Adjusted to move the whole block a bit away from the edge */
+  transform: translateY(-50%); /* Center it vertically */
+  width: auto; /* Adjust width based on content */
+}
+
+#root > div > main > div > div.middle-right > h1:nth-child(1) {
+  position: relative;
+  left: 0%; /* Keep 'Success' on the far left */
+  font-size: 13vh;
+}
+
+#root > div > main > div > div.middle-right > h1:nth-child(2) {
+  position: relative;
+  left: 30%; /* 'begins' a bit to the right */
+  font-size: 11vh;
+}
+
+#root > div > main > div > div.middle-right > h1:nth-child(3) {
+  position: relative;
+  left: 60%; /* 'with' more to the right */
+  font-size: 9vh;
+}
+
+#root > div > main > div > div.middle-right > h1:nth-child(4) {
+  position: relative;
+  left: 90%; /* 'coffee' on the far right */
+  font-size: 7vh;
+}
+
+.btn-custom2 {
+  margin-top: 10vh;
+  margin-left: 15vh;
+  border-radius: 0;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.btn-custom2 > img {
+  height: 4vh;
+  width: auto;
+  margin-left: 3px;
+}
+
+.btn-custom2:hover {
+  color: #803d3b;
+  background-color: white;
+  border-radius: 2vh;
+  border-color: #803d3b;
+  transition: 1s;
+}
+
+.second-part {
+  margin-top: 30vh;
+  background-color: #eae7de;
+  height: 40vh;
+}
+
+#root > div > section > div > div > p {
+  color: #6c3432;
+  font-size: 3vh;
+  font-family: "Merienda", cursive;
+  text-align: center;
+}
+
+#root > div > section > div > div > h1 {
+  font-family: "Merienda", cursive;
+}
+
+.bottom-border {
+  display: flex;
+  margin-top: 5vh;
+  border-bottom: 2px solid #6c3432;
+  width: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 23vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Merienda", cursive;
+}
+
+.icons img {
+  height: 18vh;
+  width: auto;
+}
+
+.icons p {
+  margin-top: 2vh;
+  font-size: 2.8vh;
+  text-align: center;
+}
+
+#root > div > section > div > div > div.icons > div.first > p {
+  margin-top: -3vh;
+}
+
+.txt {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  flex-direction: column;
+  height: 110vh;
+}
+
+#root > div > section.second-part > div > div > div.icons > div.fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root > div > section.third-part {
+  margin-top: 50vh;
+  height: 110vh;
+  background-image: url(../src/assets/images/CoverSlide.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#root > div > section.third-part > div > div > h1 {
+  font-size: 18vh;
+}
+
+#root > div > section.third-part > div > div > h2 {
+  font-size: 9vh;
+}
+
+:root {
+  --transition-duration: 0.2s;
+  --transition-timing-function: linear;
+  --transition-delay: 0s;
+
+  --text-color-demo-dark: #2c2c2c;
+  --text-color-demo-light: #fff;
+
+  --bg-demo-light: #fff;
+  --bg-demo-dark: #2c2c2c;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-color-demo-dark);
+}
+
+/* DEMO STYLES: YOU DON'T NEED THEM!!! */
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content {
+  margin: 80px auto 60px;
+  width: 100%;
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.containeer {
+  display: grid;
+  width: 95%;
+  max-width: 950px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 30px;
+}
+
+/* CARDS STYLES: YOU NEED THEM!!! */
+.card {
+  --card-text-color: #fff;
+
+  position: relative;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--card-gradient-start),
+    var(--card-gradient-end)
+  );
+  border-radius: 10px;
+}
+
+.card:before {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  display: block;
+  width: 90%;
+  height: 95%;
+  margin: auto;
+  content: "";
+  background-image: linear-gradient(
+    to right,
+    var(--card-shadow-gradient-start),
+    var(--card-shadow-gradient-end)
+  );
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.card:nth-child(1) {
+  --card-gradient-start: #faac7a;
+  --card-gradient-end: #f64d82;
+
+  --btn-gradient-start: #fdc905;
+  --btn-gradient-end: #feb036;
+  --btn-text-color: #ff3b8c;
+
+  --card-shadow-gradient-start: #deaf00;
+  --card-shadow-gradient-end: #ff3b8c;
+
+  --icon-decorations-gradient: #fdc905;
+}
+
+.card:nth-child(2) {
+  --card-gradient-start: #5baedd;
+  --card-gradient-end: #644edc;
+
+  --btn-gradient-start: #89fdfd;
+  --btn-gradient-end: #57dde0;
+  --btn-text-color: #184bb0;
+
+  --card-shadow-gradient-start: #644edc;
+  --card-shadow-gradient-end: #57dde0;
+
+  --icon-decorations-gradient: #29faff;
+}
+
+.card:nth-child(3) {
+  --card-gradient-start: #8c3fae;
+  --card-gradient-end: #3b0e61;
+
+  --btn-gradient-start: #d367ff;
+  --btn-gradient-end: #9738ff;
+  --btn-text-color: #3a0d60;
+
+  --card-shadow-gradient-start: #3b0e61;
+  --card-shadow-gradient-end: #d367ff;
+
+  --icon-decorations-gradient: #d97bff;
+}
+
+.card__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--card-text-color);
+  text-align: center;
+  overflow: hidden;
+}
+
+.card__content:before,
+.card__content:after {
+  --rotation: -101deg;
+
+  position: absolute;
+  top: 0;
+  right: -250px;
+  display: block;
+  width: var(--dimensions);
+  height: var(--dimensions);
+  content: "";
+  background-image: conic-gradient(
+    from 90deg,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  border-radius: 50%;
+  transform: rotate(var(--rotation));
+}
+
+.card__content:before {
+  --dimensions: 400px;
+}
+
+.card__content:after {
+  --dimensions: 370px;
+}
+
+.card__icon {
+  position: relative;
+  width: 200px;
+  height: 150px;
+}
+
+.card__icon:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: radial-gradient(
+      circle closest-side,
+      var(--icon-decorations-gradient) 100%,
+      rgba(255, 255, 255, 0) 0
+    ),
+    radial-gradient(
+      circle closest-side,
+      var(--icon-decorations-gradient) 100%,
+      rgba(255, 255, 255, 0) 0
+    ),
+    radial-gradient(
+      circle closest-side,
+      var(--icon-decorations-gradient) 100%,
+      rgba(255, 255, 255, 0) 0
+    );
+  background-size: 15px 15px, 20px 20px, 15px 15px;
+  background-position: 20px 20px, 160px 60px, 40px 90px;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.card__icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  fill: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7px);
+  z-index: 2;
+}
+
+.card__icon img {
+  position: relative;
+  width: 70%;
+  z-index: 3;
+}
+
+.card__title {
+  position: relative;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+
+.card__title h3 {
+  margin: 0;
+}
+
+.card__descr p:first-child {
+  margin-top: 0;
+}
+
+.card__descr p:last-child {
+  margin-bottom: 0;
+}
+
+#root > div > section.fourth-part > h1 {
+  font-family: "Merienda", cursive;
+  color: #803d3b;
+  margin-top: 5vh;
+}
+
+.fifth-part {
+  background-color: #eae7de;
+  height: 100vh;
+}
+
+#root > div > section.fifth-part > div > div > img {
+  display: flex;
+  justify-content: center;
+  height: 130vh;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: -15vh;
+}
+
+#root > div > section.fifth-part > div > h1 {
+  font-family: "Merienda", cursive;
+  color: #803d3b;
+  margin-top: 5vh;
+  font-size: 10vh;
+}
+
+#root > div > section.sixth-part > div > div > img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 60vh;
+  border-radius: 4vh;
+}
+
+.sixth-part {
+  height: 80vh;
+  width: auto;
+  margin-top: 10vh;
+}
+
+#root > div > section.sixth-part > div > div.txt1 > p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: rgb(0, 73, 0);
+  display: flex;
+  justify-content: start;
+  margin-top: -55vh;
+  font-size: 15vh;
+  margin-left: 5vh;
+}
+
+#root > div > section.sixth-part > div > div.txt2 > p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: rgb(0, 73, 0);
+  display: flex;
+  justify-content: end;
+  margin-top: -25vh;
+  font-size: 15vh;
+  margin-right: 10vh;
+}
+
+.footer {
+  margin-top: 10vh;
+  background-color: #af8260;
+  color: white;
+}
+
+#root > div > section.footer > div > footer > div.row.S > div.col-md-5.offset-md-1.mb-3.S {
+  display: flex;
+  margin-left: 70svh;
+}
+
+body
+  > section.footer
+  > div
+  > footer
+  > div.row.S
+  > div.col-6.col-md-2.mb-3
+  > h5 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: rgb(53, 1, 1);
+}
+
+body
+  > section.footer
+  > div
+  > footer
+  > div.row.S
+  > div.col-md-5.offset-md-1.mb-3.S
+  > form
+  > div
+  > button {
+  background-color: #803d3b;
+  border-color: #803d3b;
+}
+
+@media (max-width: 500px) {
+  body, html, #root {
+    overflow-x: hidden; /* Add this line to hide horizontal scrolling */
+  }
+
+  main {
+    height: 80svh;
+  }
+
+  #root > div > main > div > div {
+    display: none;
+  }
+
+  #root > div > main > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    margin-top: -20svh;
+    margin-left: -14vh;
+  }
+
+  #root > div > section.second-part > div > div > h1 {
+    font-size: 3svh;
+  }
+
+  #root > div > section.second-part > div > div > p {
+    font-size: 2.5svh;
+  }
+
+  .second-part {
+    height: 30svh;
+    width: auto;
+  }
+
+  .main-text {
+    margin-top: -3svh;
+  }
+
+  .bottom-border {
+    border-bottom: 2px solid #6c3432;
+    width: 20svh;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50svh;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 50svh;
+    margin-bottom: 20svh;
+  }
+
+  #root > div > section.third-part {
+    height: 100svh;
+    width: auto;
+    margin-top: 125vh;
+  }
+
+  #root > div > section.second-part > div > div > div.icons > div.fourth {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #root > div > section.fourth-part > h1 {
+    margin-top: 12svh;
+    font-size: 5svh;
+    background-color: #803d3b;
+    color: white;
+    border-radius: 0svh;
+  }
+
+  #root > div > section.fifth-part {
+    height: 65svh;
+  }
+
+  #root > div > section.fifth-part > div > div > img {
+    width: 50svh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #root > div > section.sixth-part > div > div.image > img {
+    width: 50svh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -5svh;
+  }
+
+  #root > div > section.sixth-part > div > div.txt2 > p {
+    display: none;
+  }
+
+  #root > div > section.sixth-part > div > div.txt1 > p {
+    display: flex;
+    margin: 0;
+    margin-top: 3svh;
+    font-size: 10svh;
+    justify-content: center;
+  }
+
+  #navbarsExample11 {
+    height: 6vh;
+  }
+
+  #navbarsExample11 > a {
+    font-size: 3svh;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #navbarsExample11 > a > img {
+    width: 4vh;
+    height: auto;
+  }
+
+  #navbarsExample11 > ul > li > a {
+    display: none;
+  }
+
+  #navbarsExample11 > div > button {
+    display: none;
+  }
+  #root > div > section.footer > div > footer > div.row.S > div.col-md-5.offset-md-1.mb-3.S {
+    display: flex;
+    margin-left: 0svh;
+}
+
+}

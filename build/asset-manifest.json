@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coffee-react/static/css/main.86316d29.css",
+    "main.js": "/coffee-react/static/js/main.ef65dd5e.js",
+    "static/js/453.e8f9426b.chunk.js": "/coffee-react/static/js/453.e8f9426b.chunk.js",
+    "static/media/CoverSlide.png": "/coffee-react/static/media/CoverSlide.6d53d1098659e3b57f46.png",
+    "static/media/coffe-cup.svg": "/coffee-react/static/media/coffe-cup.7562696bcb183d6dc59329dbf8f1b7c0.svg",
+    "static/media/portrait.png": "/coffee-react/static/media/portrait.70c29a6ccb52f21006d8.png",
+    "static/media/phones.png": "/coffee-react/static/media/phones.62b7dad4dd337ade6b6b.png",
+    "static/media/icons8-coffee-machine.svg": "/coffee-react/static/media/icons8-coffee-machine.9b7ad136440f244bf29f53d864d809c8.svg",
+    "static/media/icons8-coffee-bag.svg": "/coffee-react/static/media/icons8-coffee-bag.14b49ae96ded0a0f3adcab890d0e0726.svg",
+    "static/media/icons8-chair.svg": "/coffee-react/static/media/icons8-chair.d74ce98eabc7112e34199601819f07ec.svg",
+    "static/media/icons8-fridge.svg": "/coffee-react/static/media/icons8-fridge.1092c052bdbd42392258fbcaf067de5c.svg",
+    "index.html": "/coffee-react/index.html",
+    "main.86316d29.css.map": "/coffee-react/static/css/main.86316d29.css.map",
+    "main.ef65dd5e.js.map": "/coffee-react/static/js/main.ef65dd5e.js.map",
+    "453.e8f9426b.chunk.js.map": "/coffee-react/static/js/453.e8f9426b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86316d29.css",
+    "static/js/main.ef65dd5e.js"
+  ]
+}

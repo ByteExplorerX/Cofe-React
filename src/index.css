@@ -551,6 +551,17 @@ body
   color: rgb(53, 1, 1);
 }
 
+#root > div > section.fourth-part > div.container > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50svh;
+  margin-top: -20svh;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -30svh;
+}
 body
   > section.footer
   > div
@@ -704,6 +715,27 @@ body
   #root > div > section.footer > div > footer > div.row.S > div.col-md-5.offset-md-1.mb-3.S {
     display: flex;
     margin-left: 0svh;
+}
+#root > div > section.third-part {
+  margin-top: 130vh;
+  height: 100vh;
+  background-image: url(../src/assets/images/cappuchino.webp);
+  background-size: cover;
+  background-position: center;
+}
+#root > div > section.third-part > div > div {
+  display: none;
+}
+#root > div > section.fourth-part > div.container > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40svh;
+  margin-top: -20svh;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -30svh;
 }
 
 }

@@ -4,7 +4,8 @@ import fridgeIcon from "../src/assets/images/icons8-fridge.svg"; // Importing th
 import coffeeBagIcon from "../src/assets/images/icons8-coffee-bag.svg"; // Importing the coffee bag icon
 import chairIcon from "../src/assets/images/icons8-chair.svg"; // Importing the chair icon
 import phonesImage from "../src/assets/images/phones.png"; // Importing the phones image
-import portraitImage from "../src/assets/images/portrait.png"; // Importing the portrait image
+import portraitImage from "../src/assets/images/portrait.png";
+import sign from "../src/assets/images/order.webp";
 
 function SecondPart() {
   return (
@@ -51,7 +52,12 @@ function SecondPart() {
       </section>
 
       <section className="fourth-part">
-        <h1>Only in Albi's Coffee</h1>
+        <div className="container">
+        <img
+                  src={sign}
+                  alt="Coffee Machine Icon"
+                />
+        </div>
         <div className="content">
           <div className="containeer">
             {/* Individual cards representing products */}

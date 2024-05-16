@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Cofe-React/static/css/main.90644518.css",
-    "main.js": "/Cofe-React/static/js/main.2a81f3d2.js",
+    "main.css": "/Cofe-React/static/css/main.5e508303.css",
+    "main.js": "/Cofe-React/static/js/main.516ce42d.js",
     "static/js/453.67aa2f98.chunk.js": "/Cofe-React/static/js/453.67aa2f98.chunk.js",
     "static/media/main-video.mp4": "/Cofe-React/static/media/main-video.9f18042a6e4e1dcc0c09.mp4",
     "static/media/coffee-cup.svg": "/Cofe-React/static/media/coffee-cup.5a7394cf25d463ba3299fd8aa57ea08a.svg",
     "static/media/portrait.png": "/Cofe-React/static/media/portrait.70c29a6ccb52f21006d8.png",
+    "static/media/order.png": "/Cofe-React/static/media/order.5b3006b1abac18ab974b.png",
     "static/media/phones.png": "/Cofe-React/static/media/phones.62b7dad4dd337ade6b6b.png",
     "static/media/poster.webp": "/Cofe-React/static/media/poster.8eee60f4c34d19d32222.webp",
     "static/media/poster2.webp": "/Cofe-React/static/media/poster2.cd745f830c224831d544.webp",
-    "static/media/order.webp": "/Cofe-React/static/media/order.f81a931fa05cd7e7cc66.webp",
     "static/media/poster1.webp": "/Cofe-React/static/media/poster1.fea8c220f8868193f8dd.webp",
     "static/media/icons8-coffee-machine.svg": "/Cofe-React/static/media/icons8-coffee-machine.9b7ad136440f244bf29f53d864d809c8.svg",
     "static/media/icons8-coffee-bag.svg": "/Cofe-React/static/media/icons8-coffee-bag.14b49ae96ded0a0f3adcab890d0e0726.svg",
     "static/media/icons8-chair.svg": "/Cofe-React/static/media/icons8-chair.d74ce98eabc7112e34199601819f07ec.svg",
     "static/media/icons8-fridge.svg": "/Cofe-React/static/media/icons8-fridge.1092c052bdbd42392258fbcaf067de5c.svg",
     "index.html": "/Cofe-React/index.html",
-    "main.90644518.css.map": "/Cofe-React/static/css/main.90644518.css.map",
-    "main.2a81f3d2.js.map": "/Cofe-React/static/js/main.2a81f3d2.js.map",
+    "main.5e508303.css.map": "/Cofe-React/static/css/main.5e508303.css.map",
+    "main.516ce42d.js.map": "/Cofe-React/static/js/main.516ce42d.js.map",
     "453.67aa2f98.chunk.js.map": "/Cofe-React/static/js/453.67aa2f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90644518.css",
-    "static/js/main.2a81f3d2.js"
+    "static/css/main.5e508303.css",
+    "static/js/main.516ce42d.js"
   ]
 }

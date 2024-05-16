@@ -223,7 +223,7 @@ function SecondPart() {
                       className="form-control"
                       placeholder="Email address"
                     />
-                    <button className="btn btn-primary" type="button">
+                    <button className="btn btn-outline-light" type="button">
                       Subscribe
                     </button>
                   </div>

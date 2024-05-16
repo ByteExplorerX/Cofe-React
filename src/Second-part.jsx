@@ -5,7 +5,7 @@ import coffeeBagIcon from "../src/assets/images/icons8-coffee-bag.svg"; // Impor
 import chairIcon from "../src/assets/images/icons8-chair.svg"; // Importing the chair icon
 import phonesImage from "../src/assets/images/phones.png"; // Importing the phones image
 import portraitImage from "../src/assets/images/portrait.png";
-import sign from "../src/assets/images/order.webp";
+import sign from "../src/assets/images/order.png";
 import poster from "../src/assets/images/poster.webp";
 import poster1 from "../src/assets/images/poster1.webp";
 import poster2 from "../src/assets/images/poster2.webp";
@@ -65,7 +65,7 @@ function SecondPart() {
       </section>
 
       <section className="fourth-part">
-        <div className="container">
+        <div className="container ">
         <img
                   src={sign}
                   alt="Coffee Machine Icon"

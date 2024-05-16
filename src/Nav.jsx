@@ -28,7 +28,7 @@ function Nav() {
         >
           {/* Brand logo and name */}
           <a className="navbar-brand col-lg-3 me-0" href="/">
-            Coffee by Albi <img src={coffeeImage} alt="" /> {/* Use the imported image */}
+            Coffee by Juri <img src={coffeeImage} alt="" /> {/* Use the imported image */}
           </a>
           {/* Navigation links with a dropdown */}
           <ul className="navbar-nav col-lg-6 justify-content-lg-center">

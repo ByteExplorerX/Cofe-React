@@ -6,6 +6,9 @@ import chairIcon from "../src/assets/images/icons8-chair.svg"; // Importing the 
 import phonesImage from "../src/assets/images/phones.png"; // Importing the phones image
 import portraitImage from "../src/assets/images/portrait.png";
 import sign from "../src/assets/images/order.webp";
+import poster from "../src/assets/images/poster.webp";
+import poster1 from "../src/assets/images/poster1.webp";
+import poster2 from "../src/assets/images/poster2.webp";
 
 function SecondPart() {
   return (
@@ -13,7 +16,7 @@ function SecondPart() {
       <section className="second-part">
         <div className="container">
           <div className="main-text pt-5">
-            <p>What happens in Albi's Coffee?</p>
+            <p>What happens in Juri's Coffee?</p>
             <h1>Every sip is a journey, and every cup tells a story.</h1>
             <div className="bottom-border"></div>
             <div className="icons">
@@ -44,10 +47,20 @@ function SecondPart() {
 
       <section className="third-part">
         <div className="container">
-          <div className="txt">
-            <h1>Order</h1>
-            <h2>Now</h2>
-          </div>
+        <img
+                  src={poster}
+                  alt="Coffee Poster"
+        />
+
+<img
+                  src={poster1}
+                  alt="Coffee Poster1"
+        />
+
+<img
+                  src={poster2}
+                  alt="Coffee Poster2"
+        />
         </div>
       </section>
 
@@ -58,113 +71,8 @@ function SecondPart() {
                   alt="Coffee Machine Icon"
                 />
         </div>
-        <div className="content">
-          <div className="containeer">
-            {/* Individual cards representing products */}
-            <div className="card">
-              <div className="card__content">
-                <div className="card__icon">
-                  {/* SVG and image for visual representation of the product */}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 350 300"
-                  >
-                    <path
-                      id="&lt;Path&gt;"
-                      className="s0"
-                      d="m282.9 41.6c-34.5-17.7-68.7-54.3-113-36-44.2 18.3-62 36.8-94.1 40.5-32 3.6-82.2 21-74.9 86.8 5.6 50.2 45 75.5 76.2 84.4 31.3 8.8 48.1 44.7 90.7 40.1 35.5-3.8 64.4-35.2 82.3-52.3 32.9-31.6 78.7-34.4 91.1-68.2 11.6-31.7-23.8-77.7-58.3-95.3z"
-                    />
-                  </svg>
-                  <img
-                    src="https://assets.codepen.io/3341051/cupcake.svg"
-                    alt="Cupcake Icon"
-                  />
-                </div>
-                <div className="card__title">
-                  <h3>Cupcake</h3>
-                </div>
-                <div className="card__descr">
-                  <p>Fluffy chocolate cupcake with creamy frosting</p>
-                </div>
-                <div className="card__price"></div>
-                <div className="card__btn-wrapper"></div>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="card__content">
-                <div className="card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 340 300"
-                  >
-                    <path
-                      id="&lt;Path&gt;"
-                      className="s0"
-                      d="m149.2 17.4c-64-5.4-102.7-35.7-134.7 0-32 35.7-17 153.4 112.1 183.6 129.5 30.3 194.9-58.1 198.4-108.7 3.5-50.6-19.8-89.3-68-89.8-50.6-0.5-78.3 17.4-107.8 14.9z"
-                    />
-                  </svg>
-                  <img
-                    src="https://assets.codepen.io/3341051/ice-cream.svg"
-                    alt="Ice Cream Icon"
-                  />
-                </div>
-                <div className="card__title">
-                  <h3>Ice Cream</h3>
-                </div>
-                <div className="card__descr">
-                  <p>Refreshing ice cream bursting with fresh, juicy berries</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="card__content">
-                <div className="card__icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 361 246"
-                  >
-                    <path
-                      id="&lt;Path&gt;"
-                      className="s0"
-                      d="m157.6 0.8c-85.9 0-145.2 46.6-155.9 122.2-10.8 75.6 49.2 137.5 113.2 119.5 63.9-18.1 87.2-34.1 127-21.5 70.7 22.3 125.1-8 117.9-70.3-9.4-82.5-81.1-150-202.2-149.9z"
-                    />
-                  </svg>
-                  <img
-                    src="https://assets.codepen.io/3341051/lollipop.svg"
-                    alt="Candy Icon"
-                  />
-                </div>
-                <div className="card__title">
-                  <h3>Candy Swirl</h3>
-                </div>
-                <div className="card__descr">
-                  <p>
-                    Colorful candy swirls with a delightful burst of sweetness
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
 
-
-      <section className="fifth-part">
-        <div className="container">
-          <h1>Visit Us!</h1>
-          <div className="img-holder">
-            <img src={phonesImage} alt="Phones Image" />
-          </div>
-        </div>
-      </section>
 
       <section className="sixth-part">
         <div className="container">
@@ -185,7 +93,7 @@ function SecondPart() {
           <footer className="pt-5">
             <div className="row S">
               <div className="col-6 col-md-2 mb-3">
-                <h5>ALBI'S COFFEE</h5>
+                <h5>JURI'S COFFEE</h5>
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2">
                     <a href="#" className="nav-link p-0 text-white">
@@ -215,7 +123,7 @@ function SecondPart() {
                 </ul>
               </div>
 
-              <div className="col-md-5 offset-md-1 mb-3 S">
+              <div className="col-md-5 offset-md-1 mb-3">
                 <form>
                   <h5>Subscribe to our newsletter</h5>
                   <p>Monthly digest of what's new and exciting from us.</p>

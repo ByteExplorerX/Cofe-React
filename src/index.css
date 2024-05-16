@@ -1,6 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
 
+#root > div > div > div {
+  height: 92svh;
+  background-color: #ddc8b3;
+  padding-top: 6svh;
+}
+.video {
+  display: flex;
+  margin-top: auto; 
+  margin-bottom: auto; 
+  margin-left: auto;
+  margin-right: auto;
+  height: 80svh;
+  width: auto ;
+  justify-content: center;
+  background-position: center;
+  border-radius: 4svh;
+  border: 3px solid black !important;
+}
+
 h1 {
   text-align: center;
   font-size: 55px;
@@ -25,15 +44,16 @@ h1 {
 }
 
 main {
+  margin-top: 15svh;
   background-color: #803d3b;
-  height: 110vh;
+  height: 90vh;
 }
 
-#root > div > main > img {
+#root > div > div > main > img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -40vh;
+  margin-top: -15svh;
   width: 120vh;
 }
 
@@ -61,18 +81,18 @@ main {
   }
 }
 
-#root > div > main > img:hover {
+#root > div > div > main > img:hover {
   cursor: pointer;
   transition: transform 0.5s;
   animation: shake 2s; /* Apply the shake animation on hover */
   animation-timing-function: ease-in-out; /* Smooth movement */
 }
 
-#root > div > main > div > div.middle-left {
+#root > div > div > main > div > div.middle-left {
   color: white;
   font-family: "Yanone Kaffeesatz", sans-serif;
   position: absolute;
-  top: 50%; /* Middle of the page vertically */
+  top: 140%; /* Middle of the page vertically */
   left: 8%; /* At the left edge of the page */
   transform: translateY(
     -50%
@@ -80,44 +100,44 @@ main {
   width: 50vh;
 }
 
-#root > div > main > div > div.middle-left > h1:nth-child(1) {
+#root > div > div > main > div > div.middle-left > h1:nth-child(1) {
   font-size: 13vh;
 }
 
-#root > div > main > div > div.middle-left > h1:nth-child(2) {
+#root > div > div > main > div > div.middle-left > h1:nth-child(2) {
   font-size: 6vh;
   margin-top: -4vh;
 }
 
-#root > div > main > div > div.middle-right {
+#root > div > div > main > div > div.middle-right {
   color: white;
   font-family: "Yanone Kaffeesatz", sans-serif;
   position: absolute;
-  top: 45%; /* Middle of the page vertically */
+  top: 145%; /* Middle of the page vertically */
   right: 18%; /* Adjusted to move the whole block a bit away from the edge */
   transform: translateY(-50%); /* Center it vertically */
   width: auto; /* Adjust width based on content */
 }
 
-#root > div > main > div > div.middle-right > h1:nth-child(1) {
+#root > div > div > main > div > div.middle-right > h1:nth-child(1) {
   position: relative;
   left: 0%; /* Keep 'Success' on the far left */
   font-size: 13vh;
 }
 
-#root > div > main > div > div.middle-right > h1:nth-child(2) {
+#root > div > div > main > div > div.middle-right > h1:nth-child(2) {
   position: relative;
   left: 30%; /* 'begins' a bit to the right */
   font-size: 11vh;
 }
 
-#root > div > main > div > div.middle-right > h1:nth-child(3) {
+#root > div > div > main > div > div.middle-right > h1:nth-child(3) {
   position: relative;
   left: 60%; /* 'with' more to the right */
   font-size: 9vh;
 }
 
-#root > div > main > div > div.middle-right > h1:nth-child(4) {
+#root > div > div > main > div > div.middle-right > h1:nth-child(4) {
   position: relative;
   left: 90%; /* 'coffee' on the far right */
   font-size: 7vh;
@@ -185,6 +205,31 @@ main {
 .icons img {
   height: 18vh;
   width: auto;
+  transition: 0.8s;
+}
+
+#root > div > section.second-part > div > div > div.icons > div.first > img:hover {
+  transform: rotate(-10deg);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+#root > div > section.second-part > div > div > div.icons > div.second > img:hover {
+  transform: rotate(10deg);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+#root > div > section.second-part > div > div > div.icons > div.third > img:hover {
+  transform: rotate(-10deg);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+#root > div > section.second-part > div > div > div.icons > div.fourth > img:hover {
+  transform: rotate(10deg);
+  transition: 0.8s;
+  cursor: pointer;
 }
 
 .icons p {
@@ -213,20 +258,52 @@ main {
   align-items: center;
 }
 
-#root > div > section.third-part {
-  margin-top: 50vh;
-  height: 110vh;
-  background-image: url(../src/assets/images/CoverSlide.png);
-  background-size: cover;
-  background-position: center;
+#root > div > section.third-part > div {
+  margin-top: 55svh;
+  height: 50vh;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5svh;
 }
 
-#root > div > section.third-part > div > div > h1 {
-  font-size: 18vh;
+#root > div > section.third-part > div > img {
+  height: 60svh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3svh;
+  margin-top: -8svh;
 }
 
-#root > div > section.third-part > div > div > h2 {
-  font-size: 9vh;
+#root > div > section.third-part > div > img:nth-child(1) {
+  transition: transform 0.7s ease-in-out, box-shadow 0.7s ease-in-out, border-radius 0.7s ease-in-out;
+}
+
+#root > div > section.third-part > div > img:nth-child(1):hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6svh;
+}
+
+
+
+#root > div > section.third-part > div > img:nth-child(3) {
+  transition: transform 0.7s ease-in-out, box-shadow 0.7s ease-in-out, border-radius 0.7s ease-in-out;
+}
+
+#root > div > section.third-part > div > img:nth-child(3):hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6svh;
+}
+#root > div > section.fourth-part > div.container > img:hover {
+  transform: rotate(360deg);
+  transition: all 2s;
+  cursor: pointer;
 }
 
 :root {
@@ -241,6 +318,9 @@ main {
   --bg-demo-dark: #2c2c2c;
 }
 
+.main-text {
+  padding-top: 10svh;
+}
 html,
 body {
   display: flex;
@@ -471,27 +551,6 @@ body a {
   margin-top: 5vh;
 }
 
-.fifth-part {
-  background-color: #eae7de;
-  height: 100vh;
-}
-
-#root > div > section.fifth-part > div > div > img {
-  display: flex;
-  justify-content: center;
-  height: 130vh;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: -15vh;
-}
-
-#root > div > section.fifth-part > div > h1 {
-  font-family: "Merienda", cursive;
-  color: #803d3b;
-  margin-top: 5vh;
-  font-size: 10vh;
-}
-
 #root > div > section.sixth-part > div > div > img {
   display: flex;
   margin-left: auto;
@@ -579,39 +638,73 @@ body
   body, html, #root {
     overflow-x: hidden; /* Add this line to hide horizontal scrolling */
   }
-
+  #root > div > div > div {
+    height: 50svh;
+    background-color: #ddc8b3;
+    padding-top: 6svh;
+  }
+  .video {
+    display: flex;
+    margin-top: auto; 
+    margin-bottom: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 28svh;
+    width: auto ;
+    justify-content: center;
+    background-position: center;
+    border-radius: 4svh;
+    border: 2px solid black !important;
+  }
   main {
-    height: 80svh;
+    height: 70svh;
   }
 
-  #root > div > main > div > div {
+  #root > div > div > main > div > div.middle-left {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65svh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+  }
+  #root > div > div > main > div > div {
     display: none;
   }
 
-  #root > div > main > img {
+  #root > div > div > main > img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80vh;
+    width: 65vh;
     margin-top: -20svh;
-    margin-left: -14vh;
+    padding-top: 20svh;
+    margin-left: -8svh;
+    margin-right: auto;
   }
 
-  #root > div > section.second-part > div > div > h1 {
+  #root > div > div > section.second-part > div > div > h1 {
     font-size: 3svh;
   }
 
-  #root > div > section.second-part > div > div > p {
+  #root > div > div > section.second-part > div > div > p {
     font-size: 2.5svh;
   }
 
+  
   .second-part {
-    height: 30svh;
+    height: 30vh;
     width: auto;
-  }
+    margin-top: 20vh;
+  } 
 
-  .main-text {
-    margin-top: -3svh;
+  #root > div > section.second-part > div > div > div.icons {
+    margin-top: 15vh;
+  }
+  #root > div > section.second-part > div > div {
+    padding-top: 3vh;
   }
 
   .bottom-border {
@@ -622,19 +715,30 @@ body
   .icons {
     display: flex;
     justify-content: space-around;
-    margin-top: 50svh;
+    margin-top: 10vh; /* Adjust this value to move the icons lower */
     flex-direction: column;
     align-items: center;
     gap: 20px;
     width: 100%;
-    height: 50svh;
-    margin-bottom: 20svh;
+    height: 100vh; /* Adjust this value as needed */
+    margin-bottom: 20vh;
   }
+  
 
   #root > div > section.third-part {
-    height: 100svh;
+    height: 100vh;
     width: auto;
-    margin-top: 125vh;
+    margin-top: 155vh;
+  }
+
+  #root > div > section.third-part > div {
+    margin-top: 100svh;
+    height: 120vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
   }
 
   #root > div > section.second-part > div > div > div.icons > div.fourth {
@@ -644,25 +748,22 @@ body
     flex-direction: column;
   }
 
-  #root > div > section.fourth-part > h1 {
-    margin-top: 12svh;
-    font-size: 5svh;
-    background-color: #803d3b;
-    color: white;
-    border-radius: 0svh;
+  #root > div > section.third-part > div > img:nth-child(1):hover{
+    transition: all 0.8s;
+    transform: scale(0.8);
   }
 
-  #root > div > section.fifth-part {
-    height: 65svh;
+  #root > div > section.third-part > div > img:nth-child(2):hover{
+    transition: all 0.8s;
+    transform: scale(0.8);
   }
 
-  #root > div > section.fifth-part > div > div > img {
-    width: 50svh;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+  #root > div > section.third-part > div > img:nth-child(2){
+    transition: all 0.8s;
+  }
+
+  #root > div > section.third-part > div > img:nth-child(3){
+    z-index: -1;
   }
 
   #root > div > section.sixth-part > div > div.image > img {
@@ -716,26 +817,18 @@ body
     display: flex;
     margin-left: 0svh;
 }
-#root > div > section.third-part {
-  margin-top: 130vh;
-  height: 100vh;
-  background-image: url(../src/assets/images/cappuchino.webp);
-  background-size: cover;
-  background-position: center;
-}
+
 #root > div > section.third-part > div > div {
   display: none;
 }
 #root > div > section.fourth-part > div.container > img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40svh;
-  margin-top: -20svh;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -30svh;
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 10vh; /* Remove or adjust the top margin */
+  margin-bottom: -20; /* Remove or adjust the bottom margin */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  background-position: center; /* Center the background image */
 }
 
 }

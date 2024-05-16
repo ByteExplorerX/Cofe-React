@@ -824,7 +824,7 @@ body
 #root > div > section.fourth-part > div.container > img {
   width: 100%; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
-  margin-top: 20vh; /* Remove or adjust the top margin */
+  margin-top: 25vh; /* Remove or adjust the top margin */
   margin-bottom: -20; /* Remove or adjust the bottom margin */
   margin-left: auto; /* Center horizontally */
   margin-right: auto; /* Center horizontally */

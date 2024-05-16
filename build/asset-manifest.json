@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Cofe-React/static/css/main.93181a9e.css",
+    "main.css": "/Cofe-React/static/css/main.33a03ff7.css",
     "main.js": "/Cofe-React/static/js/main.2a81f3d2.js",
     "static/js/453.67aa2f98.chunk.js": "/Cofe-React/static/js/453.67aa2f98.chunk.js",
     "static/media/main-video.mp4": "/Cofe-React/static/media/main-video.9f18042a6e4e1dcc0c09.mp4",
@@ -16,12 +16,12 @@
     "static/media/icons8-chair.svg": "/Cofe-React/static/media/icons8-chair.d74ce98eabc7112e34199601819f07ec.svg",
     "static/media/icons8-fridge.svg": "/Cofe-React/static/media/icons8-fridge.1092c052bdbd42392258fbcaf067de5c.svg",
     "index.html": "/Cofe-React/index.html",
-    "main.93181a9e.css.map": "/Cofe-React/static/css/main.93181a9e.css.map",
+    "main.33a03ff7.css.map": "/Cofe-React/static/css/main.33a03ff7.css.map",
     "main.2a81f3d2.js.map": "/Cofe-React/static/js/main.2a81f3d2.js.map",
     "453.67aa2f98.chunk.js.map": "/Cofe-React/static/js/453.67aa2f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93181a9e.css",
+    "static/css/main.33a03ff7.css",
     "static/js/main.2a81f3d2.js"
   ]
 }

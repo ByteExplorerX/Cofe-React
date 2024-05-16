@@ -821,24 +821,8 @@ body
   display: none;
 }
 #root > div > section.fourth-part > div.container > img {
-<<<<<<< HEAD
   margin-top: 40vh;
   height: 40vh;
   width: auto;
 }
-
-
-
 }
-=======
-  width: 100%; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-top: 25svh; /* Remove or adjust the top margin */
-  margin-bottom: -20; /* Remove or adjust the bottom margin */
-  margin-left: auto; /* Center horizontally */
-  margin-right: auto; /* Center horizontally */
-  background-position: center; /* Center the background image */
-}
-
-}
->>>>>>> c494ecf14a021632896ff761575338edfe296772

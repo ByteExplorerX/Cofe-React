@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Cofe-React/static/css/main.cc332027.css",
-    "main.js": "/Cofe-React/static/js/main.d3ddf4ee.js",
+    "main.css": "/Cofe-React/static/css/main.ff6329b4.css",
+    "main.js": "/Cofe-React/static/js/main.b7d4f18e.js",
     "static/js/453.67aa2f98.chunk.js": "/Cofe-React/static/js/453.67aa2f98.chunk.js",
     "static/media/CoverSlide.png": "/Cofe-React/static/media/CoverSlide.6d53d1098659e3b57f46.png",
     "static/media/coffe-cup.svg": "/Cofe-React/static/media/coffe-cup.7562696bcb183d6dc59329dbf8f1b7c0.svg",
     "static/media/portrait.png": "/Cofe-React/static/media/portrait.70c29a6ccb52f21006d8.png",
+    "static/media/cappuchino.webp": "/Cofe-React/static/media/cappuchino.ebdfa80b1d1cb6398a0f.webp",
     "static/media/phones.png": "/Cofe-React/static/media/phones.62b7dad4dd337ade6b6b.png",
+    "static/media/order.webp": "/Cofe-React/static/media/order.f81a931fa05cd7e7cc66.webp",
     "static/media/icons8-coffee-machine.svg": "/Cofe-React/static/media/icons8-coffee-machine.9b7ad136440f244bf29f53d864d809c8.svg",
     "static/media/icons8-coffee-bag.svg": "/Cofe-React/static/media/icons8-coffee-bag.14b49ae96ded0a0f3adcab890d0e0726.svg",
     "static/media/icons8-chair.svg": "/Cofe-React/static/media/icons8-chair.d74ce98eabc7112e34199601819f07ec.svg",
     "static/media/icons8-fridge.svg": "/Cofe-React/static/media/icons8-fridge.1092c052bdbd42392258fbcaf067de5c.svg",
     "index.html": "/Cofe-React/index.html",
-    "main.cc332027.css.map": "/Cofe-React/static/css/main.cc332027.css.map",
-    "main.d3ddf4ee.js.map": "/Cofe-React/static/js/main.d3ddf4ee.js.map",
+    "main.ff6329b4.css.map": "/Cofe-React/static/css/main.ff6329b4.css.map",
+    "main.b7d4f18e.js.map": "/Cofe-React/static/js/main.b7d4f18e.js.map",
     "453.67aa2f98.chunk.js.map": "/Cofe-React/static/js/453.67aa2f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc332027.css",
-    "static/js/main.d3ddf4ee.js"
+    "static/css/main.ff6329b4.css",
+    "static/js/main.b7d4f18e.js"
   ]
 }

@@ -3,22 +3,24 @@ import coffeeMachineIcon from "../src/assets/images/icons8-coffee-machine.svg"; 
 import fridgeIcon from "../src/assets/images/icons8-fridge.svg"; // Importing the fridge icon
 import coffeeBagIcon from "../src/assets/images/icons8-coffee-bag.svg"; // Importing the coffee bag icon
 import chairIcon from "../src/assets/images/icons8-chair.svg"; // Importing the chair icon
-import phonesImage from "../src/assets/images/phones.png"; // Importing the phones image
 import portraitImage from "../src/assets/images/portrait.png";
 import sign from "../src/assets/images/order.png";
 import poster from "../src/assets/images/poster.webp";
 import poster1 from "../src/assets/images/poster1.webp";
 import poster2 from "../src/assets/images/poster2.webp";
+import video_menu from "../src/assets/images/menu.mp4";
+
 
 function SecondPart() {
   return (
     <>
       <section className="second-part">
         <div className="container">
-          <div className="main-text pt-5">
+          <div className="main-text pt-10">
             <p>What happens in Juri's Coffee?</p>
             <h1>Every sip is a journey, and every cup tells a story.</h1>
             <div className="bottom-border"></div>
+
             <div className="icons">
               <div className="first">
                 <img
@@ -46,7 +48,7 @@ function SecondPart() {
       </section>
 
       <section className="third-part">
-        <div className="container">
+        <div className="posters">
         <img
                   src={poster}
                   alt="Coffee Poster"
@@ -65,17 +67,21 @@ function SecondPart() {
       </section>
 
       <section className="fourth-part">
-        <div className="container ">
         <img
                   src={sign}
                   alt="Coffee Machine Icon"
                 />
-        </div>
       </section>
 
+    <section className="video-menu">
+      <div className="vd">
+      <video className="vd-menu" autoPlay loop muted playsInline controls={false}>
+        <source src={video_menu} type="video/mp4" />
+      </video>
+      </div>
+    </section>
 
       <section className="sixth-part">
-        <div className="container">
           <div className="image">
             <img src={portraitImage} alt="Portrait Image" />
           </div>
@@ -85,7 +91,6 @@ function SecondPart() {
           <div className="txt2">
             <p>COFFEE</p>
           </div>
-        </div>
       </section>
 
       <section className="footer">

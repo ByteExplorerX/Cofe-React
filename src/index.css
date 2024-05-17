@@ -195,11 +195,12 @@ main {
 
 .icons {
   display: flex;
-  justify-content: space-around;
-  margin-top: 23vh;
+  justify-content: space-between;
+  margin-top: 25vh;
   margin-left: auto;
   margin-right: auto;
   font-family: "Merienda", cursive;
+  align-items: center;
 }
 
 .icons img {
@@ -208,7 +209,7 @@ main {
   transition: 0.8s;
 }
 
-#root > div > section.second-part > div > div > div.icons > div.first > img:hover {
+#root > div > section.second-part > div  > div > div.icons > div.first > img:hover {
   transform: rotate(-10deg);
   transition: 0.8s;
   cursor: pointer;
@@ -258,6 +259,7 @@ main {
   align-items: center;
 }
 
+
 #root > div > section.third-part > div {
   margin-top: 55vh;
   height: 50vh;
@@ -269,7 +271,7 @@ main {
 }
 
 #root > div > section.third-part > div > img {
-  height: 60vh;
+  height: 50vh;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -306,251 +308,26 @@ main {
   cursor: pointer;
 }
 
-:root {
-  --transition-duration: 0.2s;
-  --transition-timing-function: linear;
-  --transition-delay: 0s;
-
-  --text-color-demo-dark: #2c2c2c;
-  --text-color-demo-light: #fff;
-
-  --bg-demo-light: #fff;
-  --bg-demo-dark: #2c2c2c;
-}
-
 .main-text {
   padding-top: 10vh;
 }
-html,
-body {
+.vd-menu {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--text-color-demo-dark);
+  height: 70vh;
+  width: auto;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  border-radius: 3.5vh;
 }
 
-/* DEMO STYLES: YOU DON'T NEED THEM!!! */
-body a {
-  color: inherit;
+#root > div > section.footer > div > footer > div.d-flex.flex-column.flex-sm-row.justify-content-between.pt-4.my-4.border-top > p > a {
   text-decoration: none;
+  color: wheat;
 }
 
-.content {
-  margin: 80px auto 60px;
-  width: 100%;
-}
-
-.subtitle {
-  margin-top: 0;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.containeer {
-  display: grid;
-  width: 95%;
-  max-width: 950px;
-  margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 30px;
-}
-
-/* CARDS STYLES: YOU NEED THEM!!! */
-.card {
-  --card-text-color: #fff;
-
-  position: relative;
-  background-image: linear-gradient(
-    to right bottom,
-    var(--card-gradient-start),
-    var(--card-gradient-end)
-  );
-  border-radius: 10px;
-}
-
-.card:before {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  display: block;
-  width: 90%;
-  height: 95%;
-  margin: auto;
-  content: "";
-  background-image: linear-gradient(
-    to right,
-    var(--card-shadow-gradient-start),
-    var(--card-shadow-gradient-end)
-  );
-  filter: blur(10px);
-  z-index: -1;
-}
-
-.card:nth-child(1) {
-  --card-gradient-start: #faac7a;
-  --card-gradient-end: #f64d82;
-
-  --btn-gradient-start: #fdc905;
-  --btn-gradient-end: #feb036;
-  --btn-text-color: #ff3b8c;
-
-  --card-shadow-gradient-start: #deaf00;
-  --card-shadow-gradient-end: #ff3b8c;
-
-  --icon-decorations-gradient: #fdc905;
-}
-
-.card:nth-child(2) {
-  --card-gradient-start: #5baedd;
-  --card-gradient-end: #644edc;
-
-  --btn-gradient-start: #89fdfd;
-  --btn-gradient-end: #57dde0;
-  --btn-text-color: #184bb0;
-
-  --card-shadow-gradient-start: #644edc;
-  --card-shadow-gradient-end: #57dde0;
-
-  --icon-decorations-gradient: #29faff;
-}
-
-.card:nth-child(3) {
-  --card-gradient-start: #8c3fae;
-  --card-gradient-end: #3b0e61;
-
-  --btn-gradient-start: #d367ff;
-  --btn-gradient-end: #9738ff;
-  --btn-text-color: #3a0d60;
-
-  --card-shadow-gradient-start: #3b0e61;
-  --card-shadow-gradient-end: #d367ff;
-
-  --icon-decorations-gradient: #d97bff;
-}
-
-.card__content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding: 40px 20px;
-  font-size: 17px;
-  font-weight: 500;
-  color: var(--card-text-color);
-  text-align: center;
-  overflow: hidden;
-}
-
-.card__content:before,
-.card__content:after {
-  --rotation: -101deg;
-
-  position: absolute;
-  top: 0;
-  right: -250px;
-  display: block;
-  width: var(--dimensions);
-  height: var(--dimensions);
-  content: "";
-  background-image: conic-gradient(
-    from 90deg,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
-  border-radius: 50%;
-  transform: rotate(var(--rotation));
-}
-
-.card__content:before {
-  --dimensions: 400px;
-}
-
-.card__content:after {
-  --dimensions: 370px;
-}
-
-.card__icon {
-  position: relative;
-  width: 200px;
-  height: 150px;
-}
-
-.card__icon:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  content: "";
-  background-image: radial-gradient(
-      circle closest-side,
-      var(--icon-decorations-gradient) 100%,
-      rgba(255, 255, 255, 0) 0
-    ),
-    radial-gradient(
-      circle closest-side,
-      var(--icon-decorations-gradient) 100%,
-      rgba(255, 255, 255, 0) 0
-    ),
-    radial-gradient(
-      circle closest-side,
-      var(--icon-decorations-gradient) 100%,
-      rgba(255, 255, 255, 0) 0
-    );
-  background-size: 15px 15px, 20px 20px, 15px 15px;
-  background-position: 20px 20px, 160px 60px, 40px 90px;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
-
-.card__icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  fill: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(7px);
-  z-index: 2;
-}
-
-.card__icon img {
-  position: relative;
-  width: 70%;
-  z-index: 3;
-}
-
-.card__title {
-  position: relative;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  z-index: 2;
-}
-
-.card__title h3 {
-  margin: 0;
-}
-
-.card__descr p:first-child {
-  margin-top: 0;
-}
-
-.card__descr p:last-child {
-  margin-bottom: 0;
-}
-
-#root > div > section.fourth-part > h1 {
-  font-family: "Merienda", cursive;
-  color: #803d3b;
-  margin-top: 5vh;
-}
-
-#root > div > section.sixth-part > div > div > img {
+#root > div > section.sixth-part > div > img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -567,24 +344,24 @@ body a {
   margin-top: 10vh;
 }
 
-#root > div > section.sixth-part > div > div.txt1 > p {
+#root > div > section.sixth-part > div.txt1 > p {
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: rgb(0, 73, 0);
   display: flex;
-  justify-content: start;
+  justify-content: left;
   margin-top: -55vh;
   font-size: 15vh;
-  margin-left: 5vh;
+  margin-left: 15vh;
 }
 
-#root > div > section.sixth-part > div > div.txt2 > p {
+#root > div > section.sixth-part > div.txt2 > p {
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: rgb(0, 73, 0);
   display: flex;
-  justify-content: end;
+  justify-content: right;
   margin-top: -25vh;
   font-size: 15vh;
-  margin-right: 10vh;
+  margin-right: 20vh;
 }
 
 .footer {
@@ -609,16 +386,15 @@ body
   color: rgb(53, 1, 1);
 }
 
-#root > div > section.fourth-part > div.container > img {
+#root > div > section.fourth-part > img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50vh;
-  margin-top: 0vh;
+  width: 40vh;
+  margin-top: -15vh;
   background-position: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0vh;
 }
 body
   > section.footer
@@ -713,7 +489,7 @@ body
 
   .icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 10vh; /* Adjust this value to move the icons lower */
     flex-direction: column;
     align-items: center;
@@ -765,7 +541,7 @@ body
     z-index: -1;
   }
 
-  #root > div > section.sixth-part > div > div.image > img {
+  #root > div > section.sixth-part > div.image > img {
     width: 40vh;
     height: auto;
     display: flex;
@@ -775,11 +551,11 @@ body
     margin-right: auto;
   }
 
-  #root > div > section.sixth-part > div > div.txt2 > p {
+  #root > div > section.sixth-part > div.txt2 > p {
     display: none;
   }
 
-  #root > div > section.sixth-part > div > div.txt1 > p {
+  #root > div > section.sixth-part > div.txt1 > p {
     display: flex;
     margin: 0;
     margin-top: 3vh;
@@ -817,12 +593,38 @@ body
     margin-left: 0vh;
 }
 
-#root > div > section.third-part > div > div {
-  display: none;
-}
-#root > div > section.fourth-part > div.container > img {
-  margin-top: 40vh;
-  height: 40vh;
+#root > div > section.fourth-part > img {
+  margin-top: 15vh;
+  height: 25vh;
   width: auto;
 }
+
+#root > div > section.sixth-part {
+  margin-bottom: -10vh;
+}
+
+#root > div > section.third-part > div > img {
+  display: flex;
+  height: 40vh;
+  width: 40vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5vh;
+}
+#root > div > section.third-part > div {
+  margin-top: -15vh;
+}
+.vd-menu {
+  display: flex;
+  height: 24vh;
+  width: auto;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 3.5vh;
+}
+
 }

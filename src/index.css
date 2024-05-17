@@ -302,7 +302,7 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 6vh;
 }
-#root > div > section.fourth-part > div.container > img:hover {
+#root > div > section.fourth-part > img:hover {
   transform: rotate(360deg);
   transition: all 2s;
   cursor: pointer;

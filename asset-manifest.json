@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/Cofe-React/static/css/main.b5df8cb0.css",
-    "main.js": "/Cofe-React/static/js/main.f2363a04.js",
+    "main.css": "/Cofe-React/static/css/main.5b8fd3b9.css",
+    "main.js": "/Cofe-React/static/js/main.79afc69e.js",
     "static/js/453.67aa2f98.chunk.js": "/Cofe-React/static/js/453.67aa2f98.chunk.js",
-    "static/media/main-video.mp4": "/Cofe-React/static/media/main-video.9f18042a6e4e1dcc0c09.mp4",
+    "static/media/main-video.mp4": "/Cofe-React/static/media/main-video.8d7d451c5b35419af0ea.mp4",
+    "static/media/main-mobile.mp4": "/Cofe-React/static/media/main-mobile.406e4704c9bf06cfeab9.mp4",
+    "static/media/menu-mobile.mp4": "/Cofe-React/static/media/menu-mobile.231a73c867efc089daf5.mp4",
     "static/media/menu.mp4": "/Cofe-React/static/media/menu.b2c34cc9f10fcc363045.mp4",
     "static/media/coffee-cup.svg": "/Cofe-React/static/media/coffee-cup.5a7394cf25d463ba3299fd8aa57ea08a.svg",
     "static/media/portrait.png": "/Cofe-React/static/media/portrait.70c29a6ccb52f21006d8.png",
@@ -16,12 +18,12 @@
     "static/media/icons8-chair.svg": "/Cofe-React/static/media/icons8-chair.d74ce98eabc7112e34199601819f07ec.svg",
     "static/media/icons8-fridge.svg": "/Cofe-React/static/media/icons8-fridge.1092c052bdbd42392258fbcaf067de5c.svg",
     "index.html": "/Cofe-React/index.html",
-    "main.b5df8cb0.css.map": "/Cofe-React/static/css/main.b5df8cb0.css.map",
-    "main.f2363a04.js.map": "/Cofe-React/static/js/main.f2363a04.js.map",
+    "main.5b8fd3b9.css.map": "/Cofe-React/static/css/main.5b8fd3b9.css.map",
+    "main.79afc69e.js.map": "/Cofe-React/static/js/main.79afc69e.js.map",
     "453.67aa2f98.chunk.js.map": "/Cofe-React/static/js/453.67aa2f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5df8cb0.css",
-    "static/js/main.f2363a04.js"
+    "static/css/main.5b8fd3b9.css",
+    "static/js/main.79afc69e.js"
   ]
 }

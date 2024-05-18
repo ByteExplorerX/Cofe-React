@@ -6,6 +6,9 @@
   background-color: #ddc8b3;
   padding-top: 6vh;
 }
+.coffee-text-mobile {
+  display: none;
+}
 .video {
   display: flex;
   margin-top: auto; 
@@ -18,6 +21,14 @@
   background-position: center;
   border-radius: 4vh;
   border: 3px solid black !important;
+}
+
+.video_mobile {
+  display: none;
+}
+
+.vd-menu-mobile {
+  display: none;
 }
 
 h1 {
@@ -414,17 +425,22 @@ body
     overflow-x: hidden; /* Add this line to hide horizontal scrolling */
   }
   #root > div > div > div {
-    height: 50vh;
+    height: 100vh;
     background-color: #ddc8b3;
     padding-top: 6vh;
   }
+
   .video {
+    display: none;
+  }
+
+  .video_mobile {
     display: flex;
-    margin-top: auto; 
+    margin-top: 2vh; 
     margin-bottom: auto; 
     margin-left: auto;
     margin-right: auto;
-    height: 25vh;
+    height: 75vh;
     width: auto ;
     justify-content: center;
     background-position: center;
@@ -432,18 +448,12 @@ body
     border: 2px solid black !important;
   }
   main {
+    margin-top: -8vh;
     height: 70vh;
   }
 
   #root > div > div > main > div > div.middle-left {
-    display: flex !important;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: -55vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85vw;
+    display: none;
   }
   #root > div > div > main > div > div {
     display: none;
@@ -455,7 +465,7 @@ body
     align-items: center;
     width: 65vh;
     margin-top: -20vh;
-    padding-top: 20vh;
+    padding-top: 12vh;
     margin-left: -8vh;
     margin-right: auto;
   }
@@ -468,7 +478,6 @@ body
     font-size: 2.5vh;
   }
 
-  
   .second-part {
     height: 30vh;
     width: auto;
@@ -556,11 +565,7 @@ body
   }
 
   #root > div > section.sixth-part > div.txt1 > p {
-    display: flex;
-    margin: 0;
-    margin-top: 3vh;
-    font-size: 10vh;
-    justify-content: center;
+    display: none;
   }
 
   #navbarsExample11 {
@@ -600,7 +605,7 @@ body
 }
 
 #root > div > section.sixth-part {
-  margin-bottom: -10vh;
+  display: none;
 }
 
 #root > div > section.third-part > div > img {
@@ -617,14 +622,40 @@ body
   margin-top: -15vh;
 }
 .vd-menu {
+  display: none;
+}
+
+.vd-menu-mobile {
   display: flex;
-  height: 24vh;
-  width: auto;
-  margin-top: 10vh;
+  margin-top: 5vh; 
+  margin-bottom: auto; 
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
-  border-radius: 3.5vh;
+  height: 70vh;
+  width: auto ;
+  justify-content: center;
+  background-position: center;
+  border-radius: 5vh;
+  border: 2px solid black !important;
+} 
+.coffee-text-mobile {
+  display: flex;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
+  align-items: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  flex-direction: column;
+}
+
+.coffee-text-mobile > h1 {
+  font-size: 12vh;
+  margin-top: 6vh;
+}
+.coffee-text-mobile > h2 {
+  font-size: 7vh;
+  margin-top: -2vh;
 }
 
 }

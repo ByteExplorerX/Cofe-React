@@ -1,17 +1,30 @@
 import React from "react"; // Importing the React library
 import CoffeeCup from "../src/assets/images/coffee-cup.svg"; // Importing the coffee cup image
-import video from "../src/assets/images/main-video.mp4"; // Importing the video file
+import video from "../src/assets/images/main-video.mp4"; // Importing the video fileimport video from "../src/assets/images/main-video.mp4"; // Importing the video file
+import video_mobile from "../src/assets/images/main-mobile.mp4"; // Importing the video file
+
 
 function Main() {
   return (
     <div className="main-container">
       <div className="video-container">
       <video className="video" autoPlay loop muted playsInline controls={false}>
-  <source src={video} type="video/mp4" />
-</video>
+        <source src={video} type="video/mp4" />
+      </video>
+
+      <video className="video_mobile" autoPlay loop muted playsInline controls={false}>
+        <source src={video_mobile} type="video/mp4" />
+      </video>
+
       </div>
       
       <main>
+
+      <div className="coffee-text-mobile">
+            <h1>Coffee</h1>
+            <h2>Time</h2>
+          </div>
+
         {/* Container for the main content */}
         <div className="container">
           {/* Left-aligned text block */}

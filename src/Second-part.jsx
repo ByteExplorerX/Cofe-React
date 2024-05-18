@@ -9,6 +9,7 @@ import poster from "../src/assets/images/poster.webp";
 import poster1 from "../src/assets/images/poster1.webp";
 import poster2 from "../src/assets/images/poster2.webp";
 import video_menu from "../src/assets/images/menu.mp4";
+import menu_mobile from "../src/assets/images/menu-mobile.mp4";
 
 
 function SecondPart() {
@@ -75,9 +76,15 @@ function SecondPart() {
 
     <section className="video-menu">
       <div className="vd">
+        
       <video className="vd-menu" autoPlay loop muted playsInline controls={false}>
         <source src={video_menu} type="video/mp4" />
       </video>
+
+      <video className="vd-menu-mobile" autoPlay loop muted playsInline controls={false}>
+        <source src={menu_mobile} type="video/mp4" />
+      </video>
+
       </div>
     </section>
 
